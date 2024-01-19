@@ -1,0 +1,9 @@
+(for chatbot)
+cd venv/scripts
+activate
+cd ../..
+python app.py
+
+(for virtual tour)
+python -m http.server 8000
+search "http://localhost:8000/base.html"
